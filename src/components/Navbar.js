@@ -6,7 +6,12 @@ const Navigation = (props) => {
 
     return (
         <div>
-            <Link to='/'>Home</Link>
+            <h1>
+            <Link to='/' style={{ padding: 25 }}>Portfolio</Link>
+            <Link to='/about' style={{ padding: 25 }}>About</Link>
+            <Link to='/blog' style={{ padding: 25 }}>Blog</Link>
+            <Link to='/contact' style={{ padding: 25 }}>Contact</Link>
+            </h1>
         </div>
     )
 }

@@ -9,8 +9,8 @@ class CardsContainer extends React.Component{
 
     render(){
         return(
-            <div>
-                <Container>
+            <div style={{}}>
+                {/* <Container>
                     <Row>
                         <Col><ProjectCard/></Col>
                         <Col><ProjectCard/></Col>
@@ -21,8 +21,8 @@ class CardsContainer extends React.Component{
                     <Row>
                         <ProjectDeck/>
                     </Row>
-                </Container>
-            {/* <div><ProjectDeck/></div> */}
+                </Container> */}
+            <div><ProjectDeck/></div>
             </div>
         )
     }

@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is 1 of many portfolio projects I will be building from scratch to showcase my work.
+
+The goal for this react app is to create a simple site where users can:
+-> Find a brief static AboutMe summary
+-> View a dynamic portfolio section showcasing my projects via cards
+-> Each project card will have a large modal pop up onClick that will play a demo of the project via youtube
+-> Users will be able to view my blog via clickable links that open a modal of the post on medium
+-> Users will be able to contact me / leave me a note
+
 ## Available Scripts
 
 In the project directory, you can run:
