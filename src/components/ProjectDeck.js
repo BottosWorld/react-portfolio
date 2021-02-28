@@ -8,53 +8,55 @@ const ProjectDeck = (props) => {
         <div>
             <CardDeck >
                 <Card bg='dark' border="light">
-                <Card.Img variant="top" src="holder.js/100px180" />
+                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                 <Card.Body>
                     <Card.Title>Reactive Accounts</Card.Title>
                     <Card.Subtitle>
                         Some quick example text
                     </Card.Subtitle>
-                    <Button variant="primary">See on GitHub</Button>
+                    <Button variant="outline-primary" href="https://github.com/BottosWorld/react-redux-project">Front-End GitHub</Button>
+                    <Button variant="outline-primary" href="https://github.com/bottosworld/react-redux-project-api">Back-End GitHub</Button>
                 </Card.Body>
                 </Card><br></br>
                 <Card bg='dark' border="light">
-                <Card.Img variant="top" src="holder.js/100px180" />
+                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                 <Card.Body>
                     <Card.Title>Account Overview</Card.Title>
                     <Card.Subtitle>
                         Some quick example text
                     </Card.Subtitle>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="outline-primary" href="https://github.com/BottosWorld/JS-project-frontend">Front-End</Button>
+                    <Button variant="outline-primary" href="https://github.com/BottosWorld/js-project-backend-rails-api">Back-End</Button>
                 </Card.Body>
                 </Card><br></br>
                 <Card bg='dark' border="light">
-                <Card.Img variant="top" src="holder.js/100px180" />
+                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                 <Card.Body>
                     <Card.Title>Bulls Eye</Card.Title>
                     <Card.Subtitle>
                         Some quick example text 
                     </Card.Subtitle>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="outline-primary" href="https://github.com/BottosWorld/rails-project">GitHub</Button>
                 </Card.Body>
                 </Card><br></br>
                 <Card bg='dark' border="light">
-                <Card.Img variant="top" src="holder.js/100px180" />
+                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                 <Card.Body>
                     <Card.Title>Botto's Sportsbook</Card.Title>
                     <Card.Subtitle>
                         Some quick example text 
                     </Card.Subtitle>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="outline-primary" href="https://github.com/BottosWorld/sinatra_project">GitHub</Button>
                 </Card.Body>
                 </Card><br></br>
                 <Card bg='dark' border="light">
-                <Card.Img variant="top" src="holder.js/100px180" />
+                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                 <Card.Body>
                     <Card.Title>Stocks CLI Gem</Card.Title>
                     <Card.Subtitle>
                         Some quick example text 
                     </Card.Subtitle>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="outline-primary" href="https://github.com/BottosWorld/stocks">GitHub</Button>
                 </Card.Body>
                 </Card><br></br>
             </CardDeck>

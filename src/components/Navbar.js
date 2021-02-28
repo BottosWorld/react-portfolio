@@ -37,8 +37,8 @@ const Navigation = (props) => {
                 </LinkContainer>
                 </Nav>
                 <Nav>
-                    <Link to="/">
-                    <img width="32px" height="auto" className="img-responsive" src={Logo}  alt="github" />       
+                    <Link to={{ pathname: "https://github.com/bottosworld" }} target="_blank">
+                        <img width="32px" height="auto" className="img-responsive" src={Logo}  alt="github" />       
                     </Link>
                 </Nav>
             </Navbar.Collapse>
