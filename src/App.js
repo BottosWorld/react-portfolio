@@ -14,7 +14,7 @@ function App() {
       <div style={{ position: 'absolute'}}>
         <Router>
           <Navbar/>
-          <Particles height="100vh" width="100vw" params={configParticles} />
+          <Particles height="100vh" width="100vw" params={configParticles}/>
         </Router>
       </div>
       <header className="App-header">
