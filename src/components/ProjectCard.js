@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 const ProjectCard = (props) => {
     return(
             <Card style={{ bg: 'warning' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>

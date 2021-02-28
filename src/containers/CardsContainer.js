@@ -9,20 +9,12 @@ class CardsContainer extends React.Component{
 
     render(){
         return(
-            <div style={{}}>
-                {/* <Container>
-                    <Row>
-                        <Col><ProjectCard/></Col>
-                        <Col><ProjectCard/></Col>
-                    </Row>
-                </Container>
-                <br></br>
+            <div>
                 <Container>
                     <Row>
                         <ProjectDeck/>
                     </Row>
-                </Container> */}
-            <div><ProjectDeck/></div>
+                </Container>
             </div>
         )
     }

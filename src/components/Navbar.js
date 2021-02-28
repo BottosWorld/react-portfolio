@@ -3,8 +3,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Image from 'react-bootstrap/Image'
 import {LinkContainer} from 'react-router-bootstrap'
 import Logo from '../images/GitHub-Mark-Light-32px.png'
 
@@ -32,8 +30,11 @@ const Navigation = (props) => {
                 <LinkContainer to="/blog">
                     <Nav.Link>Blog</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/resume">
-                    <Nav.Link>Resume</Nav.Link>
+                <LinkContainer to="/about">
+                    <Nav.Link>About</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="/contact">
+                    <Nav.Link>Contact</Nav.Link>
                 </LinkContainer>
                 </Nav>
                 <Nav>

@@ -5,25 +5,54 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router} from 'react-router-dom'
 import Particles from 'react-particles-js';
 import configParticles from './configParticles';
+import ProjectCard from './components/ProjectCard'
+import AboutMe from './components/AboutMe'
+import ParticlesContainer from './containers/ParticlesContainer'
 
 
-function App() {
+class App extends React.Component {
 
-  return (
-    <div className="App" style={{ position: 'relative', overflow: 'hidden'}}>
-      <div style={{ position: 'absolute'}}>
-        <Router>
-          <Navbar/>
-          <Particles height="100vh" width="100vw" params={configParticles}/>
-        </Router>
+  render(){
+    return (
+      <div>
+        <Router><Navbar/></Router>
+        <div className="App-header" style={{ position: 'relative', overflow: 'hidden'}}>
+          <div style={{ position: 'absolute'}}>
+              <Particles height="200vh" width="100vw" params={configParticles}/>
+          </div>
+          <br></br>
+          <div className='App'>
+            <CardsContainer/>
+          </div>
+        </div>
       </div>
-      <header className="App-header">
-        <CardsContainer/>
-      </header>
-
-    </div>
-
-  );
+    );
+  }
 }
 
 export default App;
+
+
+
+// function App() {
+
+//   return (
+//     <div>
+//       <div className="App" style={{ position: 'relative', overflow: 'hidden'}}>
+//         <div style={{ position: 'absolute'}}>
+//           <Router>
+//             <Navbar/>
+//             <Particles height="200vh" width="100vw" params={configParticles}/>
+//             {/* <CardsContainer/> */}
+//           </Router>
+//         </div>
+//         <header className="App-header">
+//           <CardsContainer/>
+
+//         </header>
+
+//       </div>
+//       {/* <Router><Navbar/></Router> */}
+//     </div>
+//   );
+// }
