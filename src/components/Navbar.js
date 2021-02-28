@@ -19,14 +19,14 @@ const Navigation = (props) => {
         // </div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <LinkContainer to="/">
-                <Navbar.Brand>Bryan Bottorff:</Navbar.Brand>
+                <Navbar.Brand>Bryan Bottorff's Portfolio</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto" variant="pills">
-                <LinkContainer to="/portfolio">
+                {/* <LinkContainer to="/portfolio">
                     <Nav.Link>Portfolio</Nav.Link>
-                </LinkContainer>
+                </LinkContainer> */}
                 <LinkContainer to="/blog">
                     <Nav.Link>Blog</Nav.Link>
                 </LinkContainer>
