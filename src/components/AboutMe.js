@@ -1,11 +1,12 @@
 import React from 'react';
-import Mod5Demo from './Mod5Demo'
+import AboutMeCard from './AboutMeCard'
 
 const AboutMe = () => { 
   return ( 
     <div> 
-        <h1>AboutMe:</h1>
-        {/* <Mod5Demo/> */}
+        <h1>About Me: placeholder video below...</h1>
+        <br></br>
+        <AboutMeCard/>
     </div>     
   );
 };

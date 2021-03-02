@@ -33,7 +33,7 @@ const ProjectDeck = (props) => {
                     <Button variant="outline-primary" href="https://github.com/BottosWorld/js-project-backend-rails-api">Back-End</Button>
                 </Card.Body>
                 </Card> */}
-                <br></br>
+                {/* <br></br> */}
                 <Card bg='dark' border="light">
                 <Card.Body>
                     <Card.Title>Bulls Eye</Card.Title>
