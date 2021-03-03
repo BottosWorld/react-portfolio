@@ -19,7 +19,7 @@ class App extends React.Component {
       <div>
         <Router>
           <Navbar/>
-          <Switch>
+          {/* <Switch> */}
             {/* <Route exact path="/" component={App}/> */}
             {/* <Route path="/portfolio" component={CardsContainer}/> */}
             {/* <Route path="/about" component={AboutMe}/>  */}
@@ -28,25 +28,38 @@ class App extends React.Component {
           {/* </Switch> */}
         {/* </Router> */}
         <div className="App-header" style={{ position: 'relative', overflow: 'hidden'}}>
-          <div className='App'>
+          {/* <div className='App'>
             <Route path="/about" component={AboutMe}/>
-          </div>
+          </div> */}
           <div style={{ position: 'absolute'}}>
               <Particles height="200vh" width="100vw" params={configParticles}/>
           </div>
           <br></br>
-          <div className='App'>
+          <div className='App-about'>
+            <Switch>
+            <Route path="/about" component={AboutMe}/>
+            </Switch>
+            {/* </div> */}
+            <br></br>
+            {/* <div className='App-projects'> */}
             <CardsContainer/>
-            {/* <Switch> */}
+            {/* <Switch>
+            <Route path="/portfolio" component={CardsContainer}/>
+            </Switch> */}
+            </div>
+            <br></br>
+            <div>
+            <Switch>
             {/* <Route exact path="/" component={App}/> */}
             {/* <Route path="/portfolio" component={CardsContainer}/> */}
             {/* <Route path="/about" component={AboutMe}/>  */}
+            {/* <Route path="/about" component={AboutMe}/> */}
             <Route path="/blog" component={BlogsContainer}/>
             <Route path="/contact" component={ContactContainer}/>
-          {/* </Switch> */}
+            </Switch>
           </div>
         </div>
-        </Switch>
+        {/* </Switch> */}
         </Router>
       </div>
     );

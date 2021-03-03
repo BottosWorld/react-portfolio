@@ -36,3 +36,20 @@
       transform: rotate(360deg);
     }
   }
+
+  .App-about {
+    text-align: center;
+    text-shadow: black;
+  }
+
+  .App-projects {
+    text-align: center;
+  }
+
+  .App-blogs {
+    text-align: center;
+  }
+
+  .App-contact {
+    text-align: center;
+  }
