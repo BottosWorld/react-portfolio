@@ -1,4 +1,5 @@
 import React from 'react';
+import FeaturedDeck from './FeaturedDeck'
 import AboutMeCard from './AboutMeCard'
 
 const AboutMe = () => { 
@@ -7,6 +8,8 @@ const AboutMe = () => {
         {/* <h1>About Me: placeholder video below...</h1> */}
         {/* <br></br> */}
         <AboutMeCard/>
+        <br></br><br></br>
+        <FeaturedDeck/>
     </div>     
   );
 };

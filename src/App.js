@@ -32,17 +32,18 @@ class App extends React.Component {
             <Route path="/about" component={AboutMe}/>
           </div> */}
           <div style={{ position: 'absolute'}}>
-              <Particles height="200vh" width="100vw" params={configParticles}/>
+              <Particles height="500vh" width="100vw" params={configParticles}/>
           </div>
           <br></br>
           <div className='App-about'>
+            {/* <AboutMe/> */}
             <Switch>
-            <Route path="/about" component={AboutMe}/>
+            <Route exact path="/" component={AboutMe}/>
             </Switch>
             {/* </div> */}
             <br></br>
             {/* <div className='App-projects'> */}
-            <CardsContainer/>
+            {/* <CardsContainer/> */}
             {/* <Switch>
             <Route path="/portfolio" component={CardsContainer}/>
             </Switch> */}
@@ -51,7 +52,7 @@ class App extends React.Component {
             <div>
             <Switch>
             {/* <Route exact path="/" component={App}/> */}
-            {/* <Route path="/portfolio" component={CardsContainer}/> */}
+            <Route path="/portfolio" component={CardsContainer}/>
             {/* <Route path="/about" component={AboutMe}/>  */}
             {/* <Route path="/about" component={AboutMe}/> */}
             <Route path="/blog" component={BlogsContainer}/>

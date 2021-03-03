@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectDeck from '../components/ProjectDeck'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
+import Col from 'react-bootstrap/Col'
 // import Mod1Card from '../components/Mod1Card'
 // import Mod2Card from '../components/Mod2Card'
 // import Mod3Card from '../components/Mod3Card'
@@ -13,10 +13,12 @@ class CardsContainer extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className='App-projects'>
                 <Container>
                     <Row>
+                        <Col>
                         <ProjectDeck/>
+                        </Col>
                         {/* <Col>
                             <Mod5Card/>
                         </Col>
