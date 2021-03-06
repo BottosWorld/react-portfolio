@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import {LinkContainer} from 'react-router-bootstrap'
 import GithubLogo from '../images/GitHub-Mark-Light-32px.png'
-import MediumLogo from '../images/iconmonstr-medium-light-32.png'
+// import MediumLogo from '../images/iconmonstr-medium-light-32.png'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'

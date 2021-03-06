@@ -12,6 +12,7 @@ import BlogsContainer from './containers/BlogsContainer'
 import ContactContainer from './containers/ContactContainer'
 
 
+
 class App extends React.Component {
 
   render(){
@@ -27,7 +28,9 @@ class App extends React.Component {
             {/* <Route path="/contact" component={ContactContainer}/> */}
           {/* </Switch> */}
         {/* </Router> */}
-        <div className="App-header" style={{ position: 'relative', overflow: 'hidden'}}>
+        <div className="configParticles" style={{ position: 'relative', overflow: 'hidden'}}>
+        {/* <div> */}
+          {/* <ParticlesContainer/> */}
           {/* <div className='App'>
             <Route path="/about" component={AboutMe}/>
           </div> */}

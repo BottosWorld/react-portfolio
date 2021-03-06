@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
+// import ParticlesContainer from '../containers/ParticlesContainer';
 
 class ContactForm extends React.Component { 
 
@@ -33,9 +34,9 @@ class ContactForm extends React.Component {
     <div className='App-contact'>
       <Card bg='dark' border="light">
         <Card.Body>
+          {/* <ParticlesContainer /> */}
           <Card.Header as="h1">Contact Me</Card.Header>
           <br></br>
-          <Card.Text>
             <form onSubmit={this.handleSubmit}>
               <input type='text' placeholder='FirstName' value={this.state.first_name} name='first_name' onChange={this.handleChange}/>
               <br></br><br></br>
@@ -48,7 +49,6 @@ class ContactForm extends React.Component {
               <Button input type='submit' variant="primary">I'm Broken, Do Not Click!</Button>
               {/* <input type='submit'/> */}
             </form>
-          </Card.Text>
         </Card.Body>
       </Card>
     </div>     

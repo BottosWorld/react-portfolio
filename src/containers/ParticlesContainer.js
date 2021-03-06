@@ -6,9 +6,9 @@ class ParticlesContainer extends React.Component{
 
     render(){
         return(
-            <div className="App" style={{ position: 'relative', overflow: 'hidden'}}>
+            <div className="configParticles" style={{ position: 'relative', overflow: 'hidden'}}>
                 <div style={{ position: 'absolute'}}>
-                    <Particles height="200vh" width="100vw" params={configParticles}/>
+                    <Particles height="500vh" width="100vw" params={configParticles}/>
                 </div>
             </div>
         )

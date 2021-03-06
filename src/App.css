@@ -13,7 +13,7 @@
     }
   }
   
-  .App-header {
+  /* .App-header {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
+  } */
   
   .App-link {
     color: #61dafb;
@@ -39,20 +39,46 @@
 
   .App-about {
     text-align: center;
-    text-shadow: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
 
   .App-projects {
     text-align: center;
-    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
 
   .App-blogs {
     text-align: center;
-    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
 
   .App-contact {
     text-align: center;
-    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
+
+  .configParticles {
+    background: radial-gradient(circle, rgba(193, 196, 209, 1) 0%,
+    rgba(3, 3, 29, 1) 100%);
+    min-height: 100vh;
+}
