@@ -44,12 +44,15 @@
 
   .App-projects {
     text-align: center;
+    /* height: 100vh; */
   }
 
   .App-blogs {
     text-align: center;
+    /* height: 75vh; */
   }
 
   .App-contact {
     text-align: center;
+    /* height: 75vh; */
   }

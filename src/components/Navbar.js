@@ -4,7 +4,12 @@ import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import {LinkContainer} from 'react-router-bootstrap'
-import Logo from '../images/GitHub-Mark-Light-32px.png'
+import GithubLogo from '../images/GitHub-Mark-Light-32px.png'
+import MediumLogo from '../images/iconmonstr-medium-light-32.png'
+
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const Navigation = (props) => {
 
@@ -38,9 +43,22 @@ const Navigation = (props) => {
                 </LinkContainer>
                 </Nav>
                 <Nav>
-                    <Link to={{ pathname: "https://github.com/bottosworld" }} target="_blank">
-                        <img width="32px" height="auto" className="img-responsive" src={Logo}  alt="github" />       
+                    {/* <Container><Row><Col>
+                    <Link to={{ pathname: "https://bryanlbottorff.medium.com/" }} target="_blank">
+                        <img width="32px" height="auto" className="img-responsive" src={MediumLogo}  alt="medium"/>       
                     </Link>
+                    </Col></Row></Container> */}
+                    <Container><Row><Col>
+                    <Link to={{ pathname: "https://github.com/bottosworld" }} target="_blank">
+                        <img width="32px" height="auto" className="img-responsive" src={GithubLogo}  alt="github" />       
+                    </Link>
+                    </Col></Row></Container>
+                    {/* <Link to={{ pathname: "https://github.com/bottosworld" }} target="_blank">
+                        <img width="32px" height="auto" className="img-responsive" src={MediumLogo}  alt="medium"/>       
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/bottosworld" }} target="_blank">
+                        <img width="32px" height="auto" className="img-responsive" src={GithubLogo}  alt="github" />       
+                    </Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
