@@ -1,5 +1,8 @@
 import Typewriter from 'typewriter-effect';
 
+const AboutMeTypewriter = () => {
+
+return(
 <Typewriter
   onInit={(typewriter) => {
     typewriter.typeString('Hello World!')
@@ -14,3 +17,6 @@ import Typewriter from 'typewriter-effect';
       .start();
   }}
 />
+)}
+
+export default AboutMeTypewriter
