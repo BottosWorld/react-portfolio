@@ -10,7 +10,7 @@ import AboutMe from './components/AboutMe'
 // import ParticlesContainer from './containers/ParticlesContainer'
 import BlogsContainer from './containers/BlogsContainer'
 import ContactContainer from './containers/ContactContainer'
-
+import PlaygroundsContainer from './containers/PlaygroundsContainer';
 
 
 class App extends React.Component {
@@ -60,7 +60,7 @@ class App extends React.Component {
             {/* <Route path="/about" component={AboutMe}/> */}
             <Route path="/blog" component={BlogsContainer}/>
             <Route path="/contact" component={ContactContainer}/>
-            <Route path="/play-with-particles"/>
+            <Route path="/play-with-particles" component={PlaygroundsContainer}/>
             </Switch>
           </div>
         </div>
