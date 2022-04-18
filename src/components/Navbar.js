@@ -38,8 +38,11 @@ const Navigation = (props) => {
                 {/* <LinkContainer to="/about">
                     <Nav.Link>About</Nav.Link>
                 </LinkContainer> */}
-                <LinkContainer to="/contact">
+                {/* <LinkContainer to="/contact">
                     <Nav.Link>Contact</Nav.Link>
+                </LinkContainer> */}
+                <LinkContainer to="/play-with-particles">
+                    <Nav.Link>Playground</Nav.Link>
                 </LinkContainer>
                 </Nav>
                 <Nav>

@@ -3,6 +3,7 @@ import ProjectDeck from '../components/ProjectDeck'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import ResumePDF from '../components/ResumePDF'
 // import Mod1Card from '../components/Mod1Card'
 // import Mod2Card from '../components/Mod2Card'
 // import Mod3Card from '../components/Mod3Card'
@@ -49,6 +50,13 @@ class CardsContainer extends React.Component{
                         </Col>
                     </Row>
                 </Container> */}
+                <br></br>
+                <Container>
+                    {/* <Col> */}
+                        <ResumePDF/>
+                    {/* </Col> */}
+                </Container>
+                <br></br>
             </div>
         )
     }

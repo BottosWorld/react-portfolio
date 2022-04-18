@@ -60,6 +60,7 @@ class App extends React.Component {
             {/* <Route path="/about" component={AboutMe}/> */}
             <Route path="/blog" component={BlogsContainer}/>
             <Route path="/contact" component={ContactContainer}/>
+            <Route path="/play-with-particles"/>
             </Switch>
           </div>
         </div>
