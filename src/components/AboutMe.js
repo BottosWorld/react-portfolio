@@ -7,9 +7,9 @@ const AboutMe = () => {
     <div> 
         {/* <h1>About Me: placeholder video below...</h1> */}
         <br></br>
-        <FeaturedDeck/>
-        <br></br>
         <AboutMeCard/>
+        <br></br>
+        <FeaturedDeck/>
         {/* <br></br><br></br> */}
         {/* <FeaturedDeck/> */}
     </div>     
