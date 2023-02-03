@@ -12,12 +12,15 @@ import BlogsContainer from './containers/BlogsContainer'
 import ContactContainer from './containers/ContactContainer'
 import PlaygroundsContainer from './containers/PlaygroundsContainer';
 
+import SmokeSVG from './images/bottosworld_smoke_vivid_colors_9d064716-acb1-4344-8c5c-622f1451ea23.svg'
+
+
 
 class App extends React.Component {
 
   render(){
     return (
-      <div>
+      <div class='container-fluid' style={{backgroundColor: 'black'}}>
         <Router>
           <Navbar/>
           {/* <Switch> */}
@@ -28,7 +31,7 @@ class App extends React.Component {
             {/* <Route path="/contact" component={ContactContainer}/> */}
           {/* </Switch> */}
         {/* </Router> */}
-        <div className="configParticles" style={{ position: 'relative', overflow: 'hidden'}}>
+        <div className="configParticles" style={{ position: 'relative', overflow: 'hidden', backgroundImage: `url(${SmokeSVG})`, backgroundSize: 'cover' }}>
         {/* <div> */}
           {/* <ParticlesContainer/> */}
           {/* <div className='App'>

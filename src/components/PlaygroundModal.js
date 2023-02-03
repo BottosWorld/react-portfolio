@@ -17,7 +17,7 @@ const PlaygroundModal = (props) => {
     return(
         <div className='App-blogs'> 
         <div>
-            <Card bg='dark' border="light">
+            <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(90%)`, backgroundPosition: "center"}}>
             <Card.Body>
             <Card.Subtitle>
                 <div>

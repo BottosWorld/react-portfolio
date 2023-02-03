@@ -10,7 +10,7 @@ const ProjectDeck = (props) => {
     return(
         <div>
             <CardDeck >
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(70%)`, backgroundPosition: "center"}}>
                 <Card.Body>
                     <Card.Title>Reactive Accounts</Card.Title>
                     <Card.Subtitle>
@@ -22,7 +22,7 @@ const ProjectDeck = (props) => {
                 </Card.Body>
                 </Card>
                 <br></br>
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(70%)`, backgroundPosition: "center"}}>
                 <Card.Body>
                     <Card.Title>Account Overview</Card.Title>
                     <Card.Subtitle>
@@ -34,7 +34,7 @@ const ProjectDeck = (props) => {
                 </Card.Body>
                 </Card>
                 <br></br>
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(70%)`, backgroundPosition: "center"}}>
                 <Card.Body>
                     <Card.Title>Bulls Eye</Card.Title>
                     <Card.Subtitle>
@@ -45,7 +45,7 @@ const ProjectDeck = (props) => {
                 </Card.Body>
                 </Card>
                 <br></br>
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(70%)`, backgroundPosition: "center"}}>
                 <Card.Body>
                     <Card.Title>Botto's Sportsbook</Card.Title>
                     <Card.Subtitle>
@@ -56,7 +56,7 @@ const ProjectDeck = (props) => {
                 </Card.Body>
                 </Card>
                 <br></br>
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(70%)`, backgroundPosition: "center"}}>
                 <Card.Body>
                     <Card.Title>Stocks CLI Gem</Card.Title>
                     <Card.Subtitle>

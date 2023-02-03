@@ -53,7 +53,7 @@ class CardsContainer extends React.Component{
                 <br></br>
                 <Container>
                     {/* <Col> */}
-                        <ResumePDF/>
+                        {/* <ResumePDF/> */}
                     {/* </Col> */}
                 </Container>
                 <br></br>

@@ -22,7 +22,7 @@ const Navigation = (props) => {
         //     <Link to='/contact' style={{ padding: 25 }}>Contact</Link>
         //     </h1>
         // </div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar style={{backgroundColor: 'black'}} collapseOnSelect expand="lg" variant="dark">
             <LinkContainer to="/">
                 <Navbar.Brand>Bryan Bottorff</Navbar.Brand>
             </LinkContainer>
@@ -32,9 +32,9 @@ const Navigation = (props) => {
                 <LinkContainer to="/portfolio">
                     <Nav.Link>Portfolio</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/blog">
+                {/* <LinkContainer to="/blog">
                     <Nav.Link>Blog</Nav.Link>
-                </LinkContainer>
+                </LinkContainer> */}
                 {/* <LinkContainer to="/about">
                     <Nav.Link>About</Nav.Link>
                 </LinkContainer> */}

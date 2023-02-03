@@ -9,8 +9,8 @@ import Mod2Demo from './Mod2Demo'
 const FeaturedDeck = (props) => {
     return(
         <div>
-            <CardDeck >
-                <Card bg='dark' border="light">
+            <CardDeck>
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(75%)`, backgroundPosition: "center"}} border="light">
                 <Card.Header>Featured Project</Card.Header>
                 <Card.Body>
                     <Card.Title>Reactive Accounts</Card.Title>
@@ -22,7 +22,7 @@ const FeaturedDeck = (props) => {
                 </Card.Body>
                 </Card>
                 <br></br>
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(75%)`, backgroundPosition: "center"}} border="light">
                 <Card.Header>Featured Project</Card.Header>
                 <Card.Body>
                     <Card.Title>Bulls Eye</Card.Title>
@@ -34,7 +34,7 @@ const FeaturedDeck = (props) => {
                 </Card.Body>
                 </Card>
                 <br></br>
-                <Card bg='dark' border="light">
+                <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(75%)`, backgroundPosition: "center"}} border="light">
                 <Card.Header>Featured Project</Card.Header>
                 <Card.Body>
                     <Card.Title>Botto's Sportsbook</Card.Title>
