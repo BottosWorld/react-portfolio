@@ -50,7 +50,7 @@ const AboutMeCard = (props) => {
                 </h5>
                 <br></br>
                 <h5 class="font-weight-bold text-center">
-                    I love learning about new languages, frameworks, and trends in the software engineering space. I'm currently addicted to AI and blockchain, where I spend most of my time outside of work learning about AI prompts, language models, smart contracts, and decentralized applications.
+                    I enjoy learning about new languages, frameworks, and trends in the software engineering space. I'm currently focused on studying AI and blockchain where I spend most of my time on AI prompts, language models, smart contracts, and decentralized applications.
                 </h5>
                 <br></br>
                 <p></p>
