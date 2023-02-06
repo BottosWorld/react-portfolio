@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectDeck from '../components/ProjectDeck'
+import FeaturedDeck from '../components/FeaturedDeck'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -15,11 +16,14 @@ class CardsContainer extends React.Component{
     render(){
         return(
             <div className='App-projects'>
+
                 <Container>
+                <h1 className="text-center">Featured Projects</h1>
+
                     <Row>
-                        <Col>
+                        {/* <Col>
                         <ProjectDeck/>
-                        </Col>
+                        </Col> */}
                         {/* <Col>
                             <Mod5Card/>
                         </Col>
@@ -35,6 +39,12 @@ class CardsContainer extends React.Component{
                             <Col>
                             <Mod1Card/>
                         </Col> */}
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col>
+                        <FeaturedDeck/>
+                        </Col>
                     </Row>
                 </Container>
                 {/* <Container>

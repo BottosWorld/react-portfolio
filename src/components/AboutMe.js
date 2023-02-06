@@ -10,7 +10,7 @@ const AboutMe = () => {
         <br></br>
         <AboutMeCard/>
         <br></br>
-        <FeaturedDeck/>
+        {/* <FeaturedDeck/> */}
         {/* <br></br><br></br> */}
         {/* <FeaturedDeck/> */}
     </div>     

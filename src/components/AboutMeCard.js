@@ -34,7 +34,7 @@ const AboutMeCard = (props) => {
                 <p class="font-weight-bold text-center">Ruby</p>
             </div>
             <div class="col-lg-7">
-            <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(50%)`, backgroundPosition: "center"}}>
+            <Card style={{backgroundImage: `url()`,backgroundColor: 'black', backgroundSize: 'cover', filter: `opacity(65%)`, backgroundPosition: "center"}}>
             <Card.Body>
                 <Card.Header as="h1">
                     {/* Bryan Enjoys <AboutMeTypewriterHeader/>  */}
